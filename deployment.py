@@ -51,7 +51,7 @@ def lemmatizer(text):
 
 st.title("sentimental analysis app")
 st.markdown("By keerthi kancharla")
-image = Image.open("sentimental.jpg")
+image = Image.open("sentimental.jpeg")
 user_input = st.text_area("")
 
 if user_input:
